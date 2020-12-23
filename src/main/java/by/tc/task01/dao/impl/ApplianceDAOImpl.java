@@ -5,12 +5,10 @@ import by.tc.task01.dao.ApplianceParser;
 import by.tc.task01.dao.ApplianceSearcher;
 import by.tc.task01.entity.Appliance;
 import by.tc.task01.entity.criteria.Criteria;
-import by.tc.task01.factories.ApplianceFactory;
+import by.tc.task01.factory.ApplianceFactory;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class ApplianceDAOImpl implements ApplianceDAO{
 
